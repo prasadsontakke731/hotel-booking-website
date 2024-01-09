@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid-wrapper{
+padding: 10px;
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+border: 20px solid wheat;
+/* margin-top: 100px; */
+/* padding-top: 10px; */
+}
+img{
+    /* max-width: 100%; */
+    width: 300px;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+.grid-wrapper>div{
+    display: flex;
+    margin-top: 10px;
+}

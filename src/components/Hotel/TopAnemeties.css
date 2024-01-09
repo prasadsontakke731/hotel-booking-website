@@ -1,0 +1,20 @@
+p,h5,li{
+    font-size: 20px;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.animy{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width:768) {
+    .card-body{
+        text-align: center;
+    }
+}

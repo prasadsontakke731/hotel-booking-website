@@ -1,0 +1,31 @@
+.room-info p{
+padding: 0;
+margin: 0;
+}
+.room-info div{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+img{
+    width: 100%;
+    padding: 0;
+    height: 150px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.room_size,.room_view{
+    padding: 5px;
+}
+.room_size,.room_view p{
+    font-size: 20px;
+    font-weight: bold;
+   /* border: 1px solid black; */
+   /* padding: 3px; */
+}
+.hotel-room{
+    border: 1px solid rgb(23, 23, 81);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(50, 50, 79);
+}

@@ -1,0 +1,17 @@
+ul li{
+    margin: 0 40px;
+}
+
+nav {
+    background-color: rgb(40, 40, 113);
+    color: white;
+}
+ul li{
+    color: white;
+}
+.login-btn{
+    background-color: rgb(40, 40, 113);
+    padding: 0;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.price-section{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+
+}
+.price-section .price{
+    font-weight: bold;
+    font-size: 30px;
+    color: green;
+}

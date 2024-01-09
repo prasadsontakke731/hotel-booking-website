@@ -1,0 +1,45 @@
+.dates{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    /* border-radius: 10px; */
+    background-color: rgb(191, 239, 255);
+    /* margin: 2px; */
+    font-weight: bold;
+}
+.form{
+    height: 750px;
+    /* border: 1px solid black; */
+}
+.payment{
+    background-color: aliceblue;
+}
+.inputs{
+    border: 2px solid black;
+    margin-left: 200px;
+}
+.price-details{
+    /* border: 1px solid black; */
+    background-color: lightgray;
+    margin-top: 20px;
+    padding: 10px;
+}
+.price-details h6{
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+.price_section{
+    display: flex;
+    justify-content: space-between;
+}
+.price p{
+    font-weight: bold;
+}
+
+@media screen and (max-width:587px) {
+    
+    form{
+        width: 100%;
+    }
+}
