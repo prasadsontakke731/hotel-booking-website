@@ -43,7 +43,7 @@ export const mainData = [
                 view: "City View",
                 bed: "Queen Bed Size Bed",
                 booking: "Risk Free Booking",
-                price: 1500
+                price: 2300
             }
         ],
         delux: [
@@ -57,7 +57,7 @@ export const mainData = [
                 view: "City View",
                 bed: "Queen Bed Size Bed",
                 booking: "Risk Free Booking",
-                price: 2000,
+                price: 2700,
                 image: "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/32/43/324390600.jpeg",
             }
         ],
@@ -160,7 +160,7 @@ export const mainData = [
                 view: "City View",
                 bed: "Queen Bed Size Bed",
                 booking: "Risk Free Booking",
-                price: 1200
+                price: 2400
             }
         ],
         delux: [
@@ -174,7 +174,7 @@ export const mainData = [
                 view: "City View",
                 bed: "Queen Bed Size Bed",
                 booking: "Risk Free Booking",
-                price: 1800,
+                price: 2800,
                 image: "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521702.jpeg",
 
             }
@@ -274,7 +274,7 @@ export const mainData = [
                 view: "City View",
                 bed: "Queen Bed Size Bed",
                 booking: "Risk Free Booking",
-                price: 1700
+                price: 1400
             }
         ],
         delux: [
@@ -288,7 +288,7 @@ export const mainData = [
                 view: "City View",
                 bed: "Twin Beds",
                 booking: "Risk Free Booking",
-                price: 3000,
+                price: 2000,
                 image: "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//uploadimages/35/57/35575488.jpeg",
             }
         ],
@@ -390,7 +390,7 @@ export const mainData = [
                 view: "City View",
                 bed: "Queen Bed Size Bed",
                 booking: "Risk Free Booking",
-                price: 1580,
+                price: 3300,
                 image: "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134686.jpeg",
 
             }
@@ -406,7 +406,7 @@ export const mainData = [
                 view: "City View",
                 bed: "Queen Bed Size Bed",
                 booking: "Risk Free Booking",
-                price: 3000,
+                price: 3500,
                 image: "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134682.jpeg",
             }
         ],
@@ -515,7 +515,7 @@ export const mainData = [
                 view: "City View",
                 bed: "Queen Bed Size Bed",
                 booking: "Risk Free Booking",
-                price: 2000,
+                price: 3100,
                 image: "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134686.jpeg",
 
             }
@@ -531,7 +531,7 @@ export const mainData = [
                 view: "City View",
                 bed: "Queen Bed Size Bed",
                 booking: "Risk Free Booking",
-                price: 2500,
+                price: 3600,
                 image: "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521728.jpeg",
 
             }
@@ -641,7 +641,7 @@ export const mainData = [
                 view: "City View",
                 bed: "Queen Bed Size Bed",
                 booking: "Risk Free Booking",
-                price: 1500,
+                price: 4300,
                 image: "https://imgcy.trivago.com/c_fill,d_dummy.jpeg,f_auto,h_190,q_auto,w_240/uploadimages/33/14/33142038.jpeg",
 
             }
@@ -658,16 +658,16 @@ export const mainData = [
                 bed: "Queen Bed Size Bed",
                 booking: "Risk Free Booking",
                 image: "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521728.jpeg",
-                price: 2000,
+                price: 4700,
             }
         ],
         img: [
             // "https://imgcy.trivago.com/c_fill,d_dummy.jpeg,f_auto,h_190,q_auto,w_240/uploadimages/33/14/33142038.jpeg",
             // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134686.jpeg",
-            // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/29/332901470.jpeg",
-            // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521704.jpeg",
-            // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521702.jpeg",
-            // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134668.jpeg",
+            "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/29/332901470.jpeg",
+            "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521704.jpeg",
+            "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521702.jpeg",
+            "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134668.jpeg",
             "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521728.jpeg",
             "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134682.jpeg",
             "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/07/660755698.jpeg",
@@ -762,7 +762,7 @@ export const mainData = [
                 view: "City View",
                 bed: "Queen Bed Size Bed",
                 booking: "Risk Free Booking",
-                price: 1200,
+                price: 4300,
                 image: "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_470,q_auto,w_805/partnerimages/42/32/423292048.jpeg",
 
             }
@@ -778,18 +778,18 @@ export const mainData = [
                 view: "City View",
                 bed: "Queen Bed Size Bed",
                 booking: "Risk Free Booking",
-                price: 1700,
+                price: 5000,
                 image: "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521728.jpeg",
 
             }
         ],
         img: [
             // "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_470,q_auto,w_805/partnerimages/42/32/423292048.jpeg",
-            // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134686.jpeg",
-            // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/29/332901470.jpeg",
-            // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521704.jpeg",
-            // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521702.jpeg",
-            // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134668.jpeg",
+            "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134686.jpeg",
+            "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/29/332901470.jpeg",
+            "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521704.jpeg",
+            "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521702.jpeg",
+            "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134668.jpeg",
             "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521728.jpeg",
             "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134682.jpeg",
             "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/07/660755698.jpeg",
@@ -896,7 +896,7 @@ export const mainData = [
                 view: "City View",
                 bed: "Queen Bed Size Bed",
                 booking: "Risk Free Booking",
-                price: 1500
+                price: 2600
             }
         ],
         delux: [
@@ -910,18 +910,18 @@ export const mainData = [
                 view: "City View",
                 bed: "Queen Bed Size Bed",
                 booking: "Risk Free Booking",
-                price: 2000,
+                price: 3000,
                 image: "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521728.jpeg",
 
             }
         ],
         img: [
             // "https://imgcy.trivago.com/c_fill,d_dummy.jpeg,f_auto,h_190,q_auto,w_240/partnerimages/32/15/321565936.jpeg",
-            // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134686.jpeg",
-            // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/29/332901470.jpeg",
-            // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521704.jpeg",
-            // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521702.jpeg",
-            // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134668.jpeg",
+            "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134686.jpeg",
+            "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/29/332901470.jpeg",
+            "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521704.jpeg",
+            "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521702.jpeg",
+            "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134668.jpeg",
             "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521728.jpeg",
             "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134682.jpeg",
             "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/07/660755698.jpeg",
@@ -1018,7 +1018,7 @@ export const mainData = [
                 view: "City View",
                 bed: "Queen Bed Size Bed",
                 booking: "Risk Free Booking",
-                price: 1000,
+                price: 1700,
                 image: "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134686.jpeg",
 
             }
@@ -1034,7 +1034,7 @@ export const mainData = [
                 view: "City View",
                 bed: "Queen Bed Size Bed",
                 booking: "Risk Free Booking",
-                price: 2000,
+                price: 2100,
                 image: "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521728.jpeg",
 
             }
@@ -1042,10 +1042,10 @@ export const mainData = [
         img: [
             // "https://imgcy.trivago.com/c_fill,d_dummy.jpeg,f_auto,h_190,q_auto,w_240/partnerimages/26/33/263315148.jpeg",
             // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134686.jpeg",
-            // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/29/332901470.jpeg",
-            // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521704.jpeg",
-            // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521702.jpeg",
-            // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134668.jpeg",
+            "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/29/332901470.jpeg",
+            "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521704.jpeg",
+            "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521702.jpeg",
+            "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134668.jpeg",
             "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521728.jpeg",
             "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134682.jpeg",
             "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/07/660755698.jpeg",
@@ -1143,7 +1143,7 @@ export const mainData = [
                 view: "City View",
                 bed: "Queen Bed Size Bed",
                 booking: "Risk Free Booking",
-                price: 1500,
+                price: 1800,
                 image: "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134686.jpeg",
 
             }
@@ -1159,7 +1159,7 @@ export const mainData = [
                 view: "City View",
                 bed: "Queen Bed Size Bed",
                 booking: "Risk Free Booking",
-                price: 2000,
+                price: 2500,
                 image: "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521728.jpeg",
 
             }
@@ -1167,10 +1167,10 @@ export const mainData = [
         img: [
             // "https://imgcy.trivago.com/c_fill,d_dummy.jpeg,f_auto,h_190,q_auto,w_240/partnerimages/26/84/268468610.jpeg",
             // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134686.jpeg",
-            // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/29/332901470.jpeg",
-            // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521704.jpeg",
-            // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521702.jpeg",
-            // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134668.jpeg",
+            "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/29/332901470.jpeg",
+            "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521704.jpeg",
+            "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521702.jpeg",
+            "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134668.jpeg",
             "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521728.jpeg",
             "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134682.jpeg",
             "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/07/660755698.jpeg",
@@ -1262,7 +1262,7 @@ export const mainData = [
                 view: "City View",
                 bed: "Queen Bed Size Bed",
                 booking: "Risk Free Booking",
-                price: 2200,
+                price: 2000,
                 image: "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134686.jpeg",
 
             }
@@ -1286,10 +1286,10 @@ export const mainData = [
         img: [
             // "https://imgcy.trivago.com/c_fill,d_dummy.jpeg,f_auto,h_190,q_auto,w_240/partnerimages/35/67/356736002.jpeg",
             // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134686.jpeg",
-            // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/29/332901470.jpeg",
-            // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521704.jpeg",
-            // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521702.jpeg",
-            // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134668.jpeg",
+            "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/29/332901470.jpeg",
+            "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521704.jpeg",
+            "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521702.jpeg",
+            "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134668.jpeg",
             "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521728.jpeg",
             "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134682.jpeg",
             "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/07/660755698.jpeg",
@@ -1417,11 +1417,11 @@ export const mainData = [
         ],
         img: [
             // "https://imgcy.trivago.com/c_fill,d_dummy.jpeg,f_auto,h_190,q_auto,w_240/partnerimages/21/90/219001066.jpeg",
-            // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134686.jpeg",
-            // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/29/332901470.jpeg",
-            // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521704.jpeg",
-            // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521702.jpeg",
-            // "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134668.jpeg",
+            "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134686.jpeg",
+            "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/29/332901470.jpeg",
+            "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521704.jpeg",
+            "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521702.jpeg",
+            "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134668.jpeg",
             "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/33/15/331521728.jpeg",
             "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/51/665134682.jpeg",
             "https://imgcy.trivago.com/d_dummy.jpeg,f_auto,q_auto/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low//partnerimages/66/07/660755698.jpeg",

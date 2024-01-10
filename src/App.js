@@ -16,12 +16,12 @@ export const SearchContext = createContext()
 function App() {
   // search functionality
   const [searchQuery, setSearchQuery] = useState('');
-  const [checkInDate, setCheckInDate] = useState([]);
-  const [checkOutDate, setCheckOutDate] = useState([]);
-  const [nuOfGuest, setNumOfGuest] = useState([])
-  const [numRooms, setNumRooms] = useState([]);
+  const [checkInDate, setCheckInDate] = useState("");
+  const [checkOutDate, setCheckOutDate] = useState("");
+  const [nuOfGuest, setNumOfGuest] = useState("")
+  const [numRooms, setNumRooms] = useState("");
   const [searchResult, setSearchResult] = useState([]);
-  const [storeData, setStoreData] = useState([])
+  const [storeData, setStoreData] = useState("")
 
 
 
@@ -55,11 +55,14 @@ function App() {
           <Route path='/' element={<Home searchResult={searchResult} />} />
 
 
-          <Route path='/hotel_details/:id' element={<HotelDetails />} />
+          <Route path='/hotel_details/:id' element={<HotelDetails />} >
 
 
-
+          </Route>
           <Route path='/paymentPage/:name/:id' element={<RoomInfo />} />
+
+
+
 
           <Route path='booked' element={<Booked />} />
           <Route path='/price/:name' element={<PaymentPage />} />

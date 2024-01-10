@@ -3,7 +3,7 @@ import "./RoomOption.css"
 // import roomData from '../../data/roomData'
 import { Link, Outlet, useParams } from 'react-router-dom'
 import { mainData } from '../../data/data'
-import { SearchContext } from '../../App'
+// import { SearchContext } from '../../App'
 
 
 function RoomOption() {
@@ -26,11 +26,9 @@ function RoomOption() {
 
             </div>
 
-            <div className="container mt-3 hotel-room " >
+            <div className="container mt-3 hotel-room" >
                 {
                     data.exclusive.map((dataItem) => {
-                        // console.log(dataItem);
-
                         return (
                             <div className="row" key={dataItem.id}>
                                 <div className="col-lg-4 text-center ">
@@ -68,7 +66,7 @@ function RoomOption() {
 
             </div >
 
-            <div className="container  mt-3 hotel-room ">
+            <div className="container  mt-3 hotel-room">
                 {
                     data.delux.map((items) => {
                         return (

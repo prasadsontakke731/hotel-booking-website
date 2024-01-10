@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import "./Home.css"
 import { mainData } from '../../data/data'
 import HotelList from './HotelList/HotelList'
@@ -10,7 +10,7 @@ import { SearchContext } from '../../App'
 
 function Home({ searchResult }) {
     const { isAuthenticated, user } = useAuth0();
-    const { checkInDate, checkOutDate, nuOfGuest, numRooms } = useState(SearchContext)
+    const { checkInDate, checkOutDate, nuOfGuest, numRooms } = useContext(SearchContext)
 
     return (
 

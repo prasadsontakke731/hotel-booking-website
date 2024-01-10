@@ -4,19 +4,34 @@ import "./RoomInfo.css"
 import img1 from "../Assets/image1.png"
 import { mainData } from '../../data/data'
 import { SearchContext } from '../../App'
+import { useAuth0 } from "@auth0/auth0-react";
+import { useNavigate } from "react-router-dom"
 
 function RoomInfo() {
+    const { isAuthenticated } = useAuth0();
     const { storeData } = useContext(SearchContext)
+    const navigate = useNavigate()
 
     const { id, name } = useParams()
     console.log(name, id);
 
+    const Exdata = mainData.find(info => info.exclusive.map((data) => {
+        return data.id == id
+    }))
 
-    const data = mainData.find(info => info.id == id)
-    console.log(data);
-    // if(mainData.map((item)=>{
-    //     return item.exclusive
-    // }))
+    console.log(Exdata);
+    const deData = mainData.find(info => info.delux.map((data) => {
+        return data.id == id
+    }))
+
+    console.log(deData);
+
+
+
+
+
+
+
 
     const { checkInDate, checkOutDate, nuOfGuest, numRooms } = useContext(SearchContext)
 
@@ -105,11 +120,18 @@ function RoomInfo() {
             // Add your form submission logic here
             console.log('Form submitted successfully:', formData);
             // navigate("/")
-            alert("Hotel Booked Successfully")
+            if (isAuthenticated) {
+                navigate("/")
+                alert("Hotel Booked Successfully")
+            }
+            else {
+                alert("Please Login")
+            }
         }
     };
 
     console.log(storeData);
+
 
     return (
         <div className='container payment mt-5'>
@@ -117,61 +139,93 @@ function RoomInfo() {
             < div className="row " >
 
                 <div className="col-lg-6">
-                    <h1>Hotel Info</h1>
-                    <div className="container mt-2">
-                        <div className="row">
-                            <div className="col-md-6">
-                                <img src={img1} alt="" />
-                            </div>
-                            <div className="col-md-6">
-                                <p>name</p>
-                                <p>P-4 plot, MIDC Old Mumbai Pune Road, Pimpri</p>
-                            </div>
+                    <h1>Room Info</h1>
+                    {
+                        Exdata ?
+                            <div className="container mt-2">
+                                <div className="row">
+                                    <div className="col-md-6">
+                                        <img src={Exdata.image} alt="" />
+                                    </div>
+                                    <div className="col-md-6">
+                                        <p className='fw-bold' style={{ fontWeight: "bold" }}>{Exdata.name}</p>
+                                        <p>{Exdata.location},{Exdata.address}</p>
+                                    </div>
 
-                        </div>
-                    </div>
+                                </div>
+                            </div> : <div className="container mt-2">
+                                <div className="row">
+                                    <div className="col-md-6">
+                                        <img src={img1} alt="" />
+                                    </div>
+                                    <div className="col-md-6">
+                                        <p>name</p>
+                                        <p>P-4 plot, MIDC Old Mumbai Pune Road, Pimpri</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                    }
                     <div className="container mt-4">
                         <div className="row">
                             <div className="col-md-4 dates">
                                 <span>Check-In</span>
-                                <p>{checkInDate}</p>
+                                <p>10/01/2024</p>
                                 <p>02:00 PM</p>
                             </div>
                             <div className="col-md-4 dates">
                                 <span>Check-Out</span>
-                                <p>{checkOutDate}</p>
+                                <p>11/01/2024</p>
                                 <p>12:00 PM</p>
                             </div>
-                            <div className="col-md-4 dates">
+                            <div className="col-md-4 dates ">
                                 <span>Guest</span>
-                                <p>{nuOfGuest} Guests | {numRooms} Room</p>
-                                1 Night
+                                <p>1Guests | 1Room</p>
+                                <p> 1 Night</p>
                             </div>
                         </div>
                     </div>
-                    <div className="price-details bg-light">
-                        <h6 className=''>Price Details</h6>
-                        <div className='price_section'>
-                            <p>Room Charges(1 room 1 night)</p>
-                            <p>6070</p>
-                        </div>
-                        <div className='price_section'>
-                            <p>Descounts</p>
-                            <p>-2202</p>
-                        </div>
-                        <div className='price_section'>
-                            <p>Price After Descounts</p>
-                            <p>3871</p>
-                        </div>
-                        <div className='price_section'>
-                            <p>GST On Base Price</p>
-                            <p>464</p>
-                        </div>
-                        <div className='price_section price'>
-                            <p>Total Payble Amount</p>
-                            <p className=''>3871</p>
-                        </div>
-                    </div>
+                    {
+                        deData ? Exdata.exclusive.map((data) => {
+                            return (
+                                <div className="price-details bg-light">
+                                    <h6 className=''>Price Details</h6>
+                                    <div className='price_section'>
+                                        <p>Room Charges(1 room 1 night)</p>
+                                        <p>{data.price}</p>
+                                    </div>
+
+                                    <div className='price_section'>
+                                        <p>GST On Base Price</p>
+                                        <p>664</p>
+                                    </div>
+                                    <div className='price_section price'>
+                                        <p>Total Payble Amount</p>
+                                        <p className=''>{data.price + 646}</p>
+                                    </div>
+                                </div>
+                            )
+                        }) : deData.map((dataItem) => {
+                            return (
+                                <div className="price-details bg-light">
+                                    <h6 className=''>Price Details</h6>
+                                    <div className='price_section'>
+                                        <p>Room Charges(1 room 1 night)</p>
+                                        <p>{dataItem.price}</p>
+                                    </div>
+
+                                    <div className='price_section'>
+                                        <p>GST On Base Price</p>
+                                        <p>464</p>
+                                    </div>
+                                    <div className='price_section price'>
+                                        <p>Total Payble Amount</p>
+                                        <p className=''>{dataItem.price + 464}</p>
+                                    </div>
+                                </div>
+                            )
+                        })
+                    }
                 </div>
                 <div className="col-lg-6">
                     <div className="container form">
