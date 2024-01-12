@@ -8,7 +8,7 @@ function TopAnemeties() {
                 <h1 className="display-4">Top Amenities</h1>
                 <p className="lead">Experience luxury with our top-notch amenities</p>
             </div>
-            {/*  */}
+
             <div className='container bg-light'>
                 <div className="row">
                     <div className="col ">

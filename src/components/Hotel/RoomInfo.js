@@ -1,15 +1,15 @@
-import React, { useContext, useState } from 'react'
+import React, { useState } from 'react'
 import { useParams } from "react-router-dom"
 import "./RoomInfo.css"
 import img1 from "../Assets/image1.png"
 import { mainData } from '../../data/data'
-import { SearchContext } from '../../App'
 import { useAuth0 } from "@auth0/auth0-react";
 import { useNavigate } from "react-router-dom"
 
-function RoomInfo() {
+function RoomInfo({ checkInDate, checkOutDate, nuOfGuest, numRooms }) {
+
     const { isAuthenticated } = useAuth0();
-    const { storeData } = useContext(SearchContext)
+    // const { storeData, checkInDate, checkOutDate, nuOfGuest, numRooms } = useContext(SearchContext)
     const navigate = useNavigate()
 
     const { id, name } = useParams()
@@ -33,7 +33,7 @@ function RoomInfo() {
 
 
 
-    const { checkInDate, checkOutDate, nuOfGuest, numRooms } = useContext(SearchContext)
+
 
 
 
@@ -130,7 +130,7 @@ function RoomInfo() {
         }
     };
 
-    console.log(storeData);
+    // console.log(storeData);
 
 
     return (
@@ -170,17 +170,17 @@ function RoomInfo() {
                         <div className="row">
                             <div className="col-md-4 dates">
                                 <span>Check-In</span>
-                                <p>10/01/2024</p>
+                                <p>{checkInDate}</p>
                                 <p>02:00 PM</p>
                             </div>
                             <div className="col-md-4 dates">
                                 <span>Check-Out</span>
-                                <p>11/01/2024</p>
+                                <p>{checkOutDate}</p>
                                 <p>12:00 PM</p>
                             </div>
                             <div className="col-md-4 dates ">
                                 <span>Guest</span>
-                                <p>1Guests | 1Room</p>
+                                <p>{nuOfGuest}Guests | {numRooms}Room</p>
                                 <p> 1 Night</p>
                             </div>
                         </div>

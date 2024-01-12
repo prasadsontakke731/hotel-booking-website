@@ -2,7 +2,6 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import { Routes, Route } from "react-router-dom"
-import Booked from './components/Booked/Booked';
 import Login from './components/Login/Login';
 import HotelDetails from './components/Hotel/HotelDetails';
 import Footer from './components/Footer/Footer';
@@ -32,7 +31,8 @@ function App() {
     setCheckOutDate("");
     setNumRooms("");
     setNumOfGuest("")
-    setStoreData({ searchQuery: searchQuery }, { checkInDate: checkInDate }, { checkOutDate: checkOutDate }, { numRooms: numRooms });
+    setStoreData(searchQuery, checkInDate, checkOutDate, numRooms);
+
 
     const result = mainData.filter((val) => {
       if (searchQuery == "") {
@@ -59,12 +59,12 @@ function App() {
 
 
           </Route>
-          <Route path='/paymentPage/:name/:id' element={<RoomInfo />} />
+          <Route path='/paymentPage/:name/:id' element={<RoomInfo checkInDate={checkInDate} checkOutDate={checkOutDate} nuOfGuest={nuOfGuest} numRooms={numRooms} />} />
 
 
 
 
-          <Route path='booked' element={<Booked />} />
+
           <Route path='/price/:name' element={<PaymentPage />} />
           <Route path='/login' element={<Login />} />
 
@@ -73,7 +73,8 @@ function App() {
 
         <Footer />
       </SearchContext.Provider >
-
+      {/* <BookingForm /> */}
+      {/* <Search /> */}
     </>
   );
 }
