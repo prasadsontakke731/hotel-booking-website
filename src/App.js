@@ -73,8 +73,7 @@ function App() {
 
         <Footer />
       </SearchContext.Provider >
-      {/* <BookingForm /> */}
-      {/* <Search /> */}
+
     </>
   );
 }
